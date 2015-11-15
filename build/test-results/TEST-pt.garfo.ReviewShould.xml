@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.garfo.ReviewShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-11-15T21:08:16" hostname="AFE0804061.local" time="0.003">
+  <properties/>
+  <testcase name="be_correctly_created_with_valid_values" classname="pt.garfo.ReviewShould" time="0.002"/>
+  <testcase name="throw_when_creating_a_rating_with_values_more_than_five" classname="pt.garfo.ReviewShould" time="0.0"/>
+  <testcase name="throw_when_creating_a_rating_with_values_less_than_one" classname="pt.garfo.ReviewShould" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
