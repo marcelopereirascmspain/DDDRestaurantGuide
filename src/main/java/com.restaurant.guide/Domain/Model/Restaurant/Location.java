@@ -1,15 +1,15 @@
 package com.restaurant.guide;
 
 public class Location {
-  private final Double MIN_LATITUDE = -90.0;
-  private final Double MAX_LATITUDE = 90.0;
-  private final Double MIN_LONGITUDE = -180.0;
-  private final Double MAX_LONGITUDE = 180.0;
+  private final double MIN_LATITUDE = -90.0;
+  private final double MAX_LATITUDE = 90.0;
+  private final double MIN_LONGITUDE = -180.0;
+  private final double MAX_LONGITUDE = 180.0;
   
-  private Double latitude;
-  private Double longitude;
+  private double latitude;
+  private double longitude;
 
-  public Location(Double latitude, Double longitude) {
+  public Location(double latitude, double longitude) {
     this.latitude = latitude;
     this.longitude = longitude;
     this.validate();
@@ -27,11 +27,11 @@ public class Location {
     }
   }
 
-  public Double latitude() {
+  public double latitude() {
     return this.latitude;
   }
 
-  public Double longitude() {
+  public double longitude() {
     return this.longitude;
   }
 }
