@@ -72,7 +72,7 @@ set CMD_LINE_ARGS=%$
 set CLASSPATH=%APP_HOME%\lib\DDDAlgarveRestaurants.jar
 
 @rem Execute DDDAlgarveRestaurants
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DDD_ALGARVE_RESTAURANTS_OPTS%  -classpath "%CLASSPATH%" pt.garfo.HelloWorld %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %DDD_ALGARVE_RESTAURANTS_OPTS%  -classpath "%CLASSPATH%" com.restaurant.guide.HelloWorld %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

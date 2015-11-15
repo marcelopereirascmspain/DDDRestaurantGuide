@@ -12,7 +12,7 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = "pt.garfo.HelloWorld"
+mainClassName = "com.restaurant.guide.HelloWorld"
 
 tasks.withType(Test) {
     testLogging {

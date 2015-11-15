@@ -1,4 +1,4 @@
-package pt.garfo;
+package com.restaurant.guide;
 
 public class Restaurant {
   private RestaurantId id;

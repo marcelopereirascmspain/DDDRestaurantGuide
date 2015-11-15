@@ -1,4 +1,4 @@
-package pt.garfo;
+package com.restaurant.guide;
 
 public class Location {
   private final Double MIN_LATITUDE = -90.0;

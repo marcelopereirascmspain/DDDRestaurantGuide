@@ -1,4 +1,4 @@
-package pt.garfo;
+package com.restaurant.guide;
 
 public class Rating {
   private final Integer MIN_VALUE = 1;
