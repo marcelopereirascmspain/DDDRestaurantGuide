@@ -11,6 +11,10 @@ public class Restaurant {
     this.location = location;
   }
 
+  public RestaurantId id() {
+    return this.id;
+  }
+
   public String name() {
     return this.name;
   }
