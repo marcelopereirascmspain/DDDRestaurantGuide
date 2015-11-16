@@ -14,6 +14,14 @@ public class LocationShould {
   }
 
   @Test
+  public void be_a_value_object() {
+    Location locationOne = new Location(40.0, 70.0);
+    Location locationTwo = new Location(40.0, 70.0);
+
+    assertEquals(true, locationOne.equals(locationTwo));
+  }
+
+  @Test
   public void be_able_to_construct_a_location_at_the_origin() {
     Location location = new Location(0.0, 0.0);
 

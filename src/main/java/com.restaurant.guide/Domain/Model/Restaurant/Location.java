@@ -34,4 +34,12 @@ public class Location {
   public double longitude() {
     return this.longitude;
   }
+
+  @Override
+  public boolean equals(Object location) {
+    return (
+      this.latitude() == ((Location)location).latitude() &&
+      this.longitude() == ((Location)location).longitude()
+    );
+  }
 }

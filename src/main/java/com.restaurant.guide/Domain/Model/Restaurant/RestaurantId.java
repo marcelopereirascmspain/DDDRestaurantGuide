@@ -1,13 +1,15 @@
 package com.restaurant.guide;
 
+import java.util.UUID;
+
 public class RestaurantId {
-  private String id;
+  private UUID id;
 
   public RestaurantId() {
-    this.id = id;
+    this.id = UUID.randomUUID();
   }
 
-  public String id() {
+  public UUID id() {
     return this.id;
   }
 
